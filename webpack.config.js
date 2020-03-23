@@ -3,7 +3,7 @@ const NodemonPlugin = require('nodemon-webpack-plugin');
 
 module.exports = {
   // point d'entré de l'application
-  entry: './src/index.js',
+  entry: './src/index.ts',
   // détermine si le projet tourne en dev ou en prod, ici none pour enlever les warnings
   mode: "none",
   // permet de faire tourner webpack en surveillant les modifications du projet
